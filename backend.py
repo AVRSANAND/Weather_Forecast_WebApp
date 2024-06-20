@@ -1,7 +1,7 @@
 import requests
-API_KEY = ""
 
-def get_data(place, days=None):
+def get_data(API_KEY, place, days):
+
     url = f"http://api.openweathermap.org/data/2.5/forecast?q={place}&appid={API_KEY}"
     response = requests.get(url)
     data = response.json()
@@ -12,4 +12,4 @@ def get_data(place, days=None):
 
 
 if __name__ == "__main__":
-    print(get_data(place="Hyderabad", days=3))
+    print(get_data(place="", days=3))
