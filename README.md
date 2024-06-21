@@ -3,6 +3,10 @@
 ## Overview
 This project is a web application built with Streamlit and Plotly for displaying weather forecasts. The app uses the OpenWeatherMap API to fetch weather data and provides a visual representation of temperature trends and sky conditions over the next few days for a specified location.
 
+## Live Demo
+
+You can try the live demo of the app [here](https://avrsanand-weather-forecast-webapp.streamlit.app/).
+
 ## Features
 - **Weather Forecast**: Displays temperature and sky conditions for the next few days.
 - **User Inputs**:
